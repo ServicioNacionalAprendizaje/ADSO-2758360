@@ -1,0 +1,5 @@
+Desarrollar únicamente los curosos: 
+1. Fundamentos
+2. Fundamentos de Normalización
+
+NOta: El curso de Mysql, no se recomienda realizar aún.
