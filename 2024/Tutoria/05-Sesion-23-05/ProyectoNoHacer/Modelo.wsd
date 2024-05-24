@@ -1,0 +1,20 @@
+class Categoria{
+    - nombre : String
+    - descripcion : String
+    - set() : void
+    - get() : 
+    - Crud() 
+}
+
+class Carro{
+    marca : String
+    modelo : String
+    placa : String
+    color : String
+    categoria : Categoria
+    - set() : void
+    - get() : 
+    - Crud() 
+}
+
+Carro -- Categoria

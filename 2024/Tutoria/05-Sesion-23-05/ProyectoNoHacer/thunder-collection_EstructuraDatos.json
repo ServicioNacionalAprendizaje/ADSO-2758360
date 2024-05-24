@@ -1,0 +1,296 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "EstructuraDatos",
+    "collectionId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+    "dateExported": "2024-05-20T17:29:53.769Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "8cde3825-1af2-482e-8349-0fd7e669a75a",
+            "name": "Categoria",
+            "containerId": "",
+            "created": "2024-05-17T16:57:19.192Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "Persona",
+            "containerId": "",
+            "created": "2024-05-20T16:41:04.017Z",
+            "sortNum": 35000
+        },
+        {
+            "_id": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "Usuario",
+            "containerId": "",
+            "created": "2024-05-20T16:45:06.743Z",
+            "sortNum": 37500
+        },
+        {
+            "_id": "34fbdd06-952f-4ff7-ba47-9424c63d6201",
+            "name": "Carro",
+            "containerId": "",
+            "created": "2024-05-19T15:50:14.010Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a69f5e5c-483f-4f2b-b58c-e8fa24ef8b4a",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "8cde3825-1af2-482e-8349-0fd7e669a75a",
+            "name": "Save",
+            "url": "http://localhost:9000/api/categoria",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-17T16:57:44.737Z",
+            "modified": "2024-05-19T17:42:04.542Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Camioneta\",\n  \"descripcion\":\"Carros el campo.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "909f91ef-0178-4950-a715-d79021384a9e",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "34fbdd06-952f-4ff7-ba47-9424c63d6201",
+            "name": "Save",
+            "url": "http://localhost:9000/api/carro",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-19T15:50:14.010Z",
+            "modified": "2024-05-19T17:43:05.815Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"marca\":\"Nissan\",\n  \"modelo\":\"202\",\n  \"color\":\"Gis\",\n  \"placa\":\"HF\",\n  \"categoriaId\":{\n    \"id\":2\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "11463ad4-aef8-4077-b088-740e1f494293",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "Save",
+            "url": "http://localhost:9000/api/persona",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-20T16:41:04.017Z",
+            "modified": "2024-05-20T17:24:04.424Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipoDocumento\":\"CC\",\n  \"documento\":\"4673242\",\n  \"nombre\":\"Pepita Perez\",\n  \"telefono\":\"312243\",\n  \"direccion\":\"Calle 21\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3caec055-a0de-44a6-94f0-26a5421b0c67",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "Save",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-20T16:45:06.743Z",
+            "modified": "2024-05-20T16:53:47.398Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"datos@gmailc.om\",\n  \"contrasenia\":\"478323\",\n  \"personaId\":{\n    \"id\":1\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "81896a0a-3302-42a5-bd4c-eb65c220e7c1",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "8cde3825-1af2-482e-8349-0fd7e669a75a",
+            "name": "findAll",
+            "url": "http://localhost:9000/api/categoria",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-17T16:58:46.671Z",
+            "modified": "2024-05-17T16:58:53.740Z",
+            "headers": []
+        },
+        {
+            "_id": "cbe9a44d-e33f-49e4-b785-e668d15e8965",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "8cde3825-1af2-482e-8349-0fd7e669a75a",
+            "name": "Update",
+            "url": "http://localhost:9000/api/categoria/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-17T17:18:02.612Z",
+            "modified": "2024-05-19T17:42:25.382Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Camioneta\",\n  \"descripcion\":\"Carros el campo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c39f81e4-260d-406d-9a2c-e8e35844de2a",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "34fbdd06-952f-4ff7-ba47-9424c63d6201",
+            "name": "findAll",
+            "url": "http://localhost:9000/api/carro",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-19T15:50:14.011Z",
+            "modified": "2024-05-19T15:55:47.688Z",
+            "headers": []
+        },
+        {
+            "_id": "bbd4064b-4af7-495e-b3d2-5c764d33f73c",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "34fbdd06-952f-4ff7-ba47-9424c63d6201",
+            "name": "Update",
+            "url": "http://localhost:9000/api/carro/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-19T15:50:14.012Z",
+            "modified": "2024-05-19T17:45:08.194Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"marca\": \"Renault\",\n    \"modelo\": \"2024\",\n    \"placa\": \"KJSF\",\n    \"color\": \"Gris\",\n    \"categoriaId\": {\n      \"id\": 1\n      }\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "648299e1-95d0-4115-a2b2-c1060f51821a",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "findAll",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-20T16:41:04.018Z",
+            "modified": "2024-05-20T16:47:02.982Z",
+            "headers": []
+        },
+        {
+            "_id": "b750aa7c-8e49-486b-b68d-be2588454e0c",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "Update",
+            "url": "http://localhost:9000/api/persona/4",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-20T16:41:04.019Z",
+            "modified": "2024-05-20T16:44:00.846Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipoDocumento\":\"CC\",\n  \"documento\":\"121321\",\n  \"nombre\":\"Sofia\",\n  \"telefono\":\"3144532\",\n  \"direccion\":\"Calle 22\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "97307bb2-07c8-4445-8a08-90eaa80bb53b",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "findAll",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-20T16:45:06.744Z",
+            "modified": "2024-05-20T16:49:15.910Z",
+            "headers": []
+        },
+        {
+            "_id": "b166b80c-6099-428a-ae09-9425e3fe1b23",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "Update",
+            "url": "http://localhost:9000/api/usuario/3",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-20T16:45:06.745Z",
+            "modified": "2024-05-20T16:49:57.394Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"prueba@gmail.om\",\n  \"contrasenia\":\"46873242\",\n  \"personaId\":{\n    \"id\":5\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "815f2a81-538b-4f1b-bdc9-d9b24bb83fab",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "8cde3825-1af2-482e-8349-0fd7e669a75a",
+            "name": "findById",
+            "url": "http://localhost:9000/api/categoria/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-17T16:59:16.128Z",
+            "modified": "2024-05-19T15:49:21.074Z",
+            "headers": []
+        },
+        {
+            "_id": "c20ec3cd-371a-491f-922f-c965e4531254",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "34fbdd06-952f-4ff7-ba47-9424c63d6201",
+            "name": "findById",
+            "url": "http://localhost:9000/api/carro/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-19T15:50:14.013Z",
+            "modified": "2024-05-19T15:57:50.598Z",
+            "headers": []
+        },
+        {
+            "_id": "74e2b390-a4fc-48f1-9282-96bcd946f381",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "findById",
+            "url": "http://localhost:9000/api/persona/4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-20T16:41:04.020Z",
+            "modified": "2024-05-20T16:44:17.565Z",
+            "headers": []
+        },
+        {
+            "_id": "172c8eee-9e36-48fa-80e3-206b7a2508f3",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "findById",
+            "url": "http://localhost:9000/api/usuario/4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-20T16:45:06.746Z",
+            "modified": "2024-05-20T16:51:30.510Z",
+            "headers": []
+        },
+        {
+            "_id": "53d4d011-6958-4847-b7b4-b9b25bc8bcb6",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "6c418da7-07ec-4a34-93b7-dbe21d188ea6",
+            "name": "delete",
+            "url": "http://localhost:9000/api/persona/4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-20T16:44:25.358Z",
+            "modified": "2024-05-20T16:44:32.187Z",
+            "headers": []
+        },
+        {
+            "_id": "20334f38-8669-45f7-a473-cfba30798cbb",
+            "colId": "ea7cdeec-4215-439a-9a75-a1fda98aca05",
+            "containerId": "9453eac3-16a8-4af8-976f-7c782a4481dc",
+            "name": "delete",
+            "url": "http://localhost:9000/api/usuario/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-20T16:45:06.747Z",
+            "modified": "2024-05-20T17:10:56.904Z",
+            "headers": []
+        }
+    ],
+    "ref": "8E2qfVpkbEmM_8-3WcgDGpTgvBjQaJHjtKH1NQG9qeLAj14DneS3u_IwLdEcehAjgnFIptFyftgua1-CxKFrhw"
+}

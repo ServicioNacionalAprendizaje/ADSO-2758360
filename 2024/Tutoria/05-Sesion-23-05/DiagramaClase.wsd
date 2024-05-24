@@ -1,0 +1,58 @@
+@startuml
+
+class Cliente{
+    - id : int
+    - nombre : String
+    - correo : String
+    - telefono : String
+    - direccion : String
+    - set()
+    - get()
+}
+
+class Categoria{
+    - id : int
+    - nombre : String
+    - descripcion : String
+    - set()
+    - get()
+}
+
+class Producto{
+    - id : int
+    - nombre : String
+    - descripcion : String
+    - precio : double
+    - stock : int
+    - categoria : Categoria
+    - set()
+    - get()
+}
+
+class Factura{
+    - id : int
+    - numero : int
+    - fecha : Date    
+    - totalPagar : double
+    - cliente : Cliente
+    - set()
+    - get()
+}
+
+class DetalleFactura{
+    - id : int
+    - cantidad : int
+    - subtotal : double
+    - producto : Producto
+    - factura : Factura
+    - set()
+    - get()
+}
+
+
+Categoria --* Producto
+Factura -- Cliente
+Factura --* DetalleFactura
+Producto --* DetalleFactura
+
+@enduml
