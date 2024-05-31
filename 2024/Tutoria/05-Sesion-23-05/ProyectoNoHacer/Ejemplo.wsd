@@ -1,0 +1,20 @@
+
+
+class Materia{
+    String nombre
+    int horas
+}
+
+class Estudiante{
+    String nombre
+    String correo
+}
+
+class Matricula{
+    Estudiante estudiante
+    Materia materia
+    int nota
+}
+
+Matricula *-- Estudiante
+Matricula *-- Materia
