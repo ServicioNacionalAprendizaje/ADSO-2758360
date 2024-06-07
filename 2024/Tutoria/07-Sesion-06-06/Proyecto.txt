@@ -1,0 +1,155 @@
+Establecer los componentes front-end de la aplicación web GA6-220501096-AA4-EV02
+
+project
+	assets
+		library
+		css
+		img
+		doc
+	js
+		security
+			login.js
+			register.js
+			role.js
+		sale
+			car.js
+			bill.js
+		inventory
+			product.js
+	view
+		security
+			login.html
+			register.html
+			role.html
+		sale
+			car.html
+			bill.html
+		inventory
+			product.html
+	index.html
+	.env
+
+==================
+mi-aplicacion/
+│
+├── index.html        # Página principal
+│
+├── css/              # Carpeta para archivos CSS
+│   ├── styles.css    # Archivo CSS principal
+│   └── reset.css     # CSS para resetear estilos predeterminados del navegador
+│
+├── js/               # Carpeta para archivos JavaScript
+│   ├── main.js       # Archivo JS principal
+│   └── utils.js      # Archivo JS para funciones utilitarias
+│
+├── img/              # Carpeta para imágenes
+│   ├── logo.png
+│   └── background.jpg
+│
+├── fonts/            # Carpeta para fuentes personalizadas
+│   ├── OpenSans-Regular.ttf
+│   └── OpenSans-Bold.ttf
+│
+└── docs/             # Documentación del proyecto
+    └── README.md
+	
+====================
+mi-aplicacion/
+│
+├── index.html        # Página principal
+│
+├── assets/           # Carpeta para agrupar recursos estáticos
+│   ├── css/          # Carpeta para archivos CSS
+│   │   ├── styles.css
+│   │   └── reset.css
+│   │
+│   ├── js/           # Carpeta general para archivos JavaScript
+│   │   ├── main.js
+│   │   └── utils.js
+│   │
+│   ├── img/          # Carpeta para imágenes
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   │
+│   └── fonts/        # Carpeta para fuentes personalizadas
+│       ├── OpenSans-Regular.ttf
+│       └── OpenSans-Bold.ttf
+│
+├── views/            # Carpeta para las vistas del proyecto
+│   ├── security/     # Vistas relacionadas con la seguridad
+│   │   ├── login.html
+│   │   └── register.html
+│   │
+│   ├── bill/         # Vistas para la facturación
+│   │   ├── invoice.html
+│   │   └── payment.html
+│   │
+│   └── inventory/    # Vistas para la gestión de inventario
+│       ├── list.html
+│       └── detail.html
+│
+├── services/         # Carpeta para scripts de servicio AJAX y lógica de datos
+│   ├── security/     # Scripts de servicio para seguridad
+│   │   └── securityService.js
+│   │
+│   ├── bill/         # Scripts de servicio para facturación
+│   │   └── billService.js
+│   │
+│   └── inventory/    # Scripts de servicio para inventario
+│       └── inventoryService.js
+│
+├── docs/             # Documentación del proyecto
+│   └── README.md
+│
+└── .env              # Archivo para variables de entorno
+
+
+https://github.com/ariel5253
+https://github.com/ServicioNacionalAprendizaje/ADSO-2758360
+
+
+	   
+	   
+Diseño front-end que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03
+
+mi-aplicacion/
+│
+├── index.html        # Página principal
+│
+├── assets/           # Carpeta para agrupar recursos estáticos
+│   ├── css/          # Carpeta para archivos CSS
+│   │   ├── styles.css
+│   │   └── reset.css
+│   │
+│   ├── js/           # Carpeta general para archivos JavaScript
+│   │   ├── main.js
+│   │   └── utils.js
+│   │
+│   ├── img/          # Carpeta para imágenes
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   │
+│   └── fonts/        # Carpeta para fuentes personalizadas
+│       ├── OpenSans-Regular.ttf
+│       └── OpenSans-Bold.ttf
+│
+├── views/            # Carpeta para las vistas del proyecto
+│   ├── security/     # Vistas relacionadas con la seguridad
+│   │   ├── login.html
+│   │   └── register.html
+│   │
+│   ├── bill/         # Vistas para la facturación
+│   │   ├── invoice.html
+│   │   └── payment.html
+│   │
+│   └── inventory/    # Vistas para la gestión de inventario
+│       ├── list.html
+│       └── detail.html
+│
+├── docs/             # Documentación del proyecto
+│   └── README.md
+
+
+
+Freddy -> Platzi -> tiktok
+	   -> EDTeam -> tiktok
