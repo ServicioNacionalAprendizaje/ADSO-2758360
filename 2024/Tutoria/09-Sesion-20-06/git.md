@@ -7,3 +7,12 @@ git clone https://github.com/ServicioNacionalAprendizaje/ADSO-2758360.git
 
 # Únicamente obtener cambios
 git pull
+
+# Generar cambios en el repositorio. (privilegios)
+git pull
+git add -A
+git commit -m "Mensaje del cambio a realizar"
+git push
+
+# Comando para revisar cambios pendientes 
+git status
