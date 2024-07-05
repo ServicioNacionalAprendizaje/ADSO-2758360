@@ -1,0 +1,52 @@
+API Rest => Service
+================
+1. Motor bd: Mysql
+2. Lengueje de programación: Java (jdk 17)
+3. IDE (Entorno Integrado de Desarrollo): Intellij IDEA
+4. Herramienta Cliente API: Postman
+5. Framework: Spring Boot (Apache tomcat)
+
+=================
+Arquitectura: 
+	* MVC [Entity, IRespository, IService, Service, Controller]
+	* Hibernate (ORM => Objeto de mapeo relacional) => JPA
+	* Nomenclatura
+		Documento: PascalCase
+		Atributos: calmelCase
+		BD: unders_core
+		
+=================
+1. Confirgurar mi equipo
+	* BD
+	* JAVA (LTS jdk 8 11 17)  https://www.oracle.com/co/java/technologies/downloads/#jdk17-windows
+	* IDE: https://www.jetbrains.com/idea/download/?section=windows
+	* Postman: https://www.postman.com/downloads/
+	
+2. Crear el proyecto
+	* spring initializr: https://start.spring.io/
+		* Project: Maven
+		* Language: Java
+		* Spring Boot: 3.3.1
+		* Project Metadata
+			Group: com.sena
+			Artifact: EjemploAPI
+			Name: EjemploAPI
+			Description: Ejemplo para construir una API
+			Package name: com.sena.EjemploAPI
+		* Packaging: jar
+		* Java: 17
+		* Dependencies
+			* Spring Boot DevTools
+			* Spring Web 
+			* Spring Data JPA
+			* MySQL Driver 
+	https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.1&packaging=jar&jvmVersion=17&groupId=com.sena&artifactId=EjemploAPI&name=EjemploAPI&description=Ejemplo%20para%20construir%20una%20API&packageName=com.sena.EjemploAPI&dependencies=devtools,web,data-jpa,mysql
+
+2. Descargar el proyecto.
+	* Descomprimir
+	* Abrir proyecto con su IDE que use.
+	
+3. Crear configuración del Application Properties
+	
+			
+		
