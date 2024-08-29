@@ -1,0 +1,46 @@
+validate
+create-drop
+update
+create
+none
+
+herramientas cliente 
+** front(web, móvil, desktop)
+** postman, insonia, thunder client
+
+status?? verbos http
+	* Get, Put, Delete, Post, Patch
+	
+	* 100 o superior Informativos
+	* 200 o superior OK (Todo esta bien)
+	* 300 o superior redireccionamiento 
+	* 400 o error de acceso
+	* 500 o superior error de servidor
+
+
+{"nombre":"Pepito Perez", "celular":"3015554646", "correo":"jesus@gonzalez"}
+
+Camara, Perro, Gato
+
+==================================
+project
+│
+├── assets
+│   ├── css
+│   │   └── library
+│   │       └── styles.css
+│   ├── img
+│   │   └── logo.png
+│   └── doc
+│       └── documentation.pdf
+│
+├── views
+│   ├── modules
+│       └── person.html
+│
+├── js
+│   └── modules
+│       └── person.js
+│
+├── index.html
+├── README.md
