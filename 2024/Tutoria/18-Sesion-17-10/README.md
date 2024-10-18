@@ -1,0 +1,1 @@
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=17&groupId=com.Sena&artifactId=ShoppingCart&name=ShoppingCart&description=proyecto%20base%20para%20los%20formativos&packageName=com.Sena.ShoppingCart&dependencies=data-jpa,devtools,mysql,web

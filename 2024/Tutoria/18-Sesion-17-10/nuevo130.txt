@@ -1,0 +1,126 @@
+backend => API funcional. 
+frontend => funcional.
+
+===============
+web=> 
+escritorio=> 
+móvil=>
+
+==================================
+shopping-cart
+	seguridad
+		persona
+			tipo_documento
+			documento
+			primer_nombre
+			sugundo_nombre
+			primer_apellido
+			sugundo_apellido
+			correo
+			telefono
+			direccion			
+		usuario
+			usuario
+			contrasenia
+			persona_id
+		rol
+			codigo
+			nombre
+			descripcion
+		usuario_rol
+			usuario_id
+			rol_id
+		modulo
+			codigo
+			nombre
+			descripcion
+			ruta
+		vista
+			codigo
+			nombre
+			descripcion
+			ruta
+		modulo_vista
+			modulo_id
+			vista_id
+	inventario
+		categoria
+			codigo
+			nombre
+			descripcion
+		producto
+			codigo
+			nombre
+			descripcion
+			categoria_id
+		inventario
+			stock
+			valor_compra
+			valor_venta
+			producto_id
+			sucursal_id
+			fecha
+	proveedor
+		empresa
+			nit
+			nombre
+			direccion
+			correo
+			telefono
+			gerente_id
+		sucursal
+			nombre
+			direccion
+			correo
+			telefono
+			responsable_id
+			empresa_id
+	facturacion
+		factura
+			fecha
+			valor_bruto
+			valor_neto
+			valor_descuento
+			medio_pago_id
+		detallete_factura
+			valor_bruto
+			valor_neto
+			porcentaje_descuento
+			cantidad
+			producto_id
+		medio_pago
+			codigo
+			nombre
+			descripcion
+
+	atributos de auditoría
+		createdAt
+		updatedAt
+		deletedAt
+		createdBy
+		updatedBy
+		deletedBy
+		state
+		
+	JPA => Hibernate => APIRest
+	Abstact Factory - Method Factory
+	
+	seguridad
+	inventario
+	proveedor
+	facturacion
+	
+	
+	===================
+	A => Abstact
+	Normal => Clase de implementación
+	I => Interfaz
+	
+	
+	Persona persona = new Persona();
+	persona.Set
+		
+		
+		
+		
+			
