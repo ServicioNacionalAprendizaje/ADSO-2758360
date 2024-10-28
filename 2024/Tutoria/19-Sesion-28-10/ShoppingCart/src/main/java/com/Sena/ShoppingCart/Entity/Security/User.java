@@ -1,6 +1,6 @@
 package com.Sena.ShoppingCart.Entity.Security;
 
-import com.Sena.ShoppingCart.Entity.ABaseEntity.ABaseEntity;
+import com.Sena.ShoppingCart.Entity.ABaseEntity;
 import jakarta.persistence.*;
 
 @Entity
