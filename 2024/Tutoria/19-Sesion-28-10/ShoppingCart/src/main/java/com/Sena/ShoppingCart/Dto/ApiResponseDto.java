@@ -1,10 +1,14 @@
 package com.Sena.ShoppingCart.Dto;
 
+import com.Sena.ShoppingCart.Entity.Security.User;
+
+import java.util.Optional;
+
 public class ApiResponseDto<T> {
     private Boolean status;
     private T data;
     private String message;
-    public ApiResponseDto() {
+    public ApiResponseDto(String datosGuardados, Optional<User> login, boolean status) {
     }
     public ApiResponseDto(String message, T data, Boolean status) {
         this.message = message;

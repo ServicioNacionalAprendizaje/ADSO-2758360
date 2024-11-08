@@ -10,6 +10,9 @@ import com.Sena.ShoppingCart.Service.ABaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.util.Optional;
+
 @Service
 public class UserService extends ABaseService<User> implements IUserService {
 
@@ -20,4 +23,9 @@ public class UserService extends ABaseService<User> implements IUserService {
 
     @Autowired
     private IUserRepository repository;
+
+    @Override
+    public Optional<User> Login(String username, String password) {
+        return repository.Login(username, password);
+    }
 }
